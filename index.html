@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>20 07 14 Form Lecture</h1>
+    <form>
+        <fieldset>
+            <legend>Lecture</legend>
+            <!-- name field -->
+            <div>
+                <label for="studentName">Name :</label>
+                <input type="text" name="studentName" id="studentName" placeholder="First Name Last Name">
+            </div>
+
+            <!-- SSN  field -->
+            <div>
+                <label for="studentSSN">Last 4 Digits of SSN</label>
+                <input type="password" name="studentSSN" id="studentSSN">
+            </div>
+
+            <!-- age field -->
+            <div>
+                <label for="studentAge">Age :</label>
+                <input type="number" name="studentAge" id="studentAge" required>
+            </div>
+
+            <!-- email field -->
+            <div>
+                <label for="studentEmail">Email :</label>
+                <input type="email" name="studentEmail" id="studentEmail" required>
+            </div>
+
+            <!-- birthday field -->
+            <div>
+                <label for="studentBirthday">Birthday</label>
+                <input type="date" name="studentBirthday" id="studentBirthday">
+            </div>
+
+            <!-- cohort selection -->
+            <div>
+                <label for="cohortSelection">Cohort :</label>
+                <select name="cohortSelection" id="cohortSelection">
+                    <option value="0">--</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                </select>
+            </div>
+
+            <!-- local radio buttons -->
+            <div>
+                <p>Is the student from the Memphis area</p>
+                <input type="radio" name="studentLocation" id="local" value="local">
+                <label for="local">Local</label>
+                <input type="radio" name="studentLocation" id="notLocal" value="notLocal">
+                <label for="notLocal">Not Local</label>
+            </div>
+
+            <!-- student XP checkboxes -->
+            <p>Check all experience that apply</p>
+            <div>
+                <label for="studentInterest">Interest in Programming</label>
+                <input type="checkbox" name="studentInterest" id="studentInterest">
+            </div>
+
+            <div>
+                <label for="studentXP">Experience in Programming</label>
+                <input type="checkbox" name="studentXP" id="studentXP">
+            </div>
+
+            <div>
+                <label for="studentEdu">Formal Education in Programming</label>
+                <input type="checkbox" name="studentEdu" id="studentEdu">
+            </div>
+
+            <!-- submit and rest buttons -->
+            <button type="submit">Submit Form</button>
+            <button type="reset">Reset Form</button>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+body {
+    /* background-color: lightblue; */
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    /* border: 1px solid black; */
+    padding: 2%;
+    /* border-radius: 5px; */
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 1%;
+}
+
+div {
+    margin-bottom: 1%;
+}
